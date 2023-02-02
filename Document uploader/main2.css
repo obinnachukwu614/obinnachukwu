@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('/img/v2osk-1Z2niiBPg5A-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* Media Query */
+
+@media screen and (max-width: 375px){
+    h1 {
+        padding-right: 10rem;
+    }
+    p {
+        padding-right: 10rem;
+    }
+}
